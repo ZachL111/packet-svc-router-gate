@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,60,85,14,10,8,185,accept,backend services baseline scenario keeps the local fixture within the modeled acceptance band
+pressure,81,76,27,18,8,160,accept,backend services pressure scenario keeps the local fixture within the modeled acceptance band
+surge,102,97,23,17,12,259,accept,backend services surge scenario keeps the local fixture within the modeled acceptance band
+degraded,63,60,34,27,7,52,review,backend services degraded scenario exercises the review path for bounded failure handling
+recovery,87,106,17,11,10,262,accept,backend services recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,80,79,23,18,8,169,accept,backend services boundary scenario keeps the local fixture within the modeled acceptance band
